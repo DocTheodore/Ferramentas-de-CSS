@@ -87,10 +87,10 @@ a pagina ficara com uma parencia estranha
 /*=====================*/
 
 /*=== removedores ===*/
-.semPadding{
+.sem_padding{
     padding: 0 !important;
 }
-.semMargin{
+.sem_margin{
     margin: 0 !important;
 }
 /*===================*/
@@ -101,3 +101,16 @@ h1,h2,h3,h4,h5,h6{
     font-weight: 500;
 }
 /*=============================*/
+
+/*=== Modificações para listas ===*/
+ol li, ul li{
+    margin-bottom: 5px;
+}
+ol.vertical li, ul.vertical li{
+    display: inline;
+    margin-left: 15px;
+}
+ol.vertical li:first-child, ul.vertical li:first-child{
+    margin-left: 0;
+}
+/*================================*/
