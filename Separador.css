@@ -1,7 +1,7 @@
-/*** Ferramenta de separação entre linhas e colunas por Thiago Moreira ***/
-/*** v0.0.2 ***/
+/*** Ferramenta de separação entre Paragrafos e colunas por Thiago Moreira ***/
+/*** v0.0.3 ***/
 
-/*=== Separação de linhas ===*/
+/*=== Separação de Paragrafos ===*/
 .linha{
     width: 960px;
     padding: 5px 0;
@@ -87,10 +87,17 @@ a pagina ficara com uma parencia estranha
 /*=====================*/
 
 /*=== removedores ===*/
-.sem-padding{
+.semPadding{
     padding: 0 !important;
 }
-.sem-margin{
+.semMargin{
     margin: 0 !important;
 }
 /*===================*/
+
+/*=== destaque para titulos ===*/
+h1,h2,h3,h4,h5,h6{
+    margin: 15px 0 10px 0;
+    font-weight: 500;
+}
+/*=============================*/
