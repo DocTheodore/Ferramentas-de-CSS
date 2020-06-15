@@ -1,21 +1,23 @@
-/*=== Ferramenta de separação entre linhas e colunas por Thiago Moreira ===*/
-/*=== v0.0.1 ===*/
+/*** Ferramenta de separação entre linhas e colunas por Thiago Moreira ***/
+/*** v0.0.2 ***/
 
-/* Separação de linhas */
+/*=== Separação de linhas ===*/
 .linha{
     width: 960px;
     padding: 5px 0;
     margin: 0 auto;
     overflow: auto;
 }
+/*============================*/
 
-/* Marca D´agua do site */
+/*=== Marca D´agua do site ===*/
 .MarcaDagua{
     text-align: center;
     padding: 20px 0;
 }
+/*=============================*/
 
-/* Separação de partes */
+/*=== Separação de partes ===*/
 .p1{
     padding: 0 10px;
     width: 60px;
@@ -76,8 +78,19 @@
     width: 940px;
     float: left;
 }
-/*                   === Aviso! ===
+/*                   *** Aviso! ***
 toda linha de pagina deve ter 960px para um design agradavel,
 vc tera de somar os numeros das partes até que se some 12, caso contrario
 a pagina ficara com uma parencia estranha 
+|                    ***************
 */
+/*=====================*/
+
+/*=== removedores ===*/
+.sem-padding{
+    padding: 0 !important;
+}
+.sem-margin{
+    margin: 0 !important;
+}
+/*===================*/
