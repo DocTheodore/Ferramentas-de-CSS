@@ -8,11 +8,13 @@
     margin: 0 auto;
     overflow: auto;
 }
+
 /* Marca D´agua do site */
 .MarcaDagua{
     text-align: center;
     padding: 20px 0;
 }
+
 /* Separação de partes */
 .p1{
     padding: 0 10px;
